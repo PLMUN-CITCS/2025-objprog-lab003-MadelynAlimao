@@ -2,6 +2,7 @@ import java.util.Scanner;
 public class InputOutputDemo {
     public static void main(String[] args) {
 Scanner input = new Scanner(System.in);
+System.out.print("Enter an integer: ");
 int userInt = input.nextInt();
 System.out.print("Enter a decimal number: ");
 double userDouble = input.nextDouble();
